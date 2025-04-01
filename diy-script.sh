@@ -58,6 +58,7 @@ git_sparse_clone main https://github.com/haiibo/packages luci-theme-atmaterial l
 
 # 更改 Argon 主题背景
 # cp -f $GITHUB_WORKSPACE/images/bg1.jpg package/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
+git clone https://github.com/NONGFAH/luci-app-athena-led.git package/athena-led
 
 # 晶晨宝盒
 git_sparse_clone main https://github.com/ophub/luci-app-amlogic luci-app-amlogic
